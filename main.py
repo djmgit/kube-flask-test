@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "THIS IS SECRET"
 
-branch = "master"
+branch = "v2"
 
 @app.route("/app")
 def index():
